@@ -1,0 +1,11 @@
+# flink/requirements.txt
+# pip install -r flink/requirements.txt
+
+# PyFlink — version identique à l'image Docker flink:1.18
+apache-flink==1.18.0
+
+# Driver Cassandra Python — utilisé dans le CassandraSink du job
+cassandra-driver==3.29.2
+
+# Kafka Python — utilisé par inject_late_event.py
+kafka-python==2.0.2

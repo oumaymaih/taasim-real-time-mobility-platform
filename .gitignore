@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Spark
+spark-warehouse/
+
+# Kafka
+kafka-logs/
+
+# Docker
+*.log
+
+# Data
+data/raw/
+data/intermediate/
+
+# Env
+.env
+
+# Mac/Linux
+.DS_Store
+
+# VSCode
+.vscode/
+
+# IntelliJ
+.idea/
+
+# Large files
+*.parquet
+*.csv
+*.zip
