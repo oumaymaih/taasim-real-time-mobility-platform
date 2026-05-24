@@ -303,7 +303,7 @@ Flink watermarks ensure accurate aggregations despite delayed events.
 ## Infrastructure
 
 ### Docker Services
-![Docker](screenshots/docker_containers_.png)
+![Docker](screenshots/docker_containers.png)
 
 ### Kafka Topics
 ![Kafka](screenshots/kafka_topics.png)
