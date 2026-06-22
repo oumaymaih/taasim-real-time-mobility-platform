@@ -390,7 +390,7 @@ services:
   # After startup: add datasource manually in UI (see post-up checklist).
   # ---------------------------------------------------------------------------
   grafana:
-    image: grafana/grafana:10.4.2
+    image: grafana/grafana:latest
     container_name: taasim-grafana
     hostname: grafana
     <<: *restart

@@ -4,7 +4,7 @@
 
 > Event-driven Transport-as-a-Service platform for Casablanca urban mobility simulation.
 
-TaaSim is a distributed Big Data platform designed to simulate and optimize urban transportation systems using real-time stream processing, batch analytics, and machine learning.
+**TaaSim is a distributed Big Data platform designed to simulate and optimize urban transportation systems using real-time stream processing, Geospatial Remapping & Map Matching, batch analytics, and machine learning.**
 
 The project combines Apache Kafka, Flink, Spark, Cassandra, and FastAPI to process GPS streams, match riders to vehicles, aggregate mobility demand, and forecast transportation patterns at city scale.
 
@@ -144,7 +144,19 @@ Features:
 - ETA estimation
 
 ---
+# Geospatial Remapping & Map Matching 
+- Visit **zone_remapping/** folder for more details 
 
+## GeoJSON District Filtering
+![GeoJSON](zone_remapping/visuals/geojson_filtering_markers.png)
+
+## GeoJSON District Filtering
+![GeoJSON](zone_remapping/visuals/geojson_filtering_trips.png)
+
+## GeoJSON District Filtering
+![GeoJSON](zone_remapping/visuals/map_matching_osrm.png)
+
+---
 # Machine Learning Pipeline
 
 The ML module forecasts transportation demand per mobility zone using Spark MLlib.

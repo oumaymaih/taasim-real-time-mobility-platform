@@ -331,7 +331,10 @@ Generated artifacts include:
 ![Bounding Box](visuals/bounding_box_result.png)
 
 ## GeoJSON District Filtering
-![GeoJSON](visuals/geojson_filtering.png)
+![GeoJSON](visuals/geojson_filtering_markers.png)
+
+## GeoJSON District Filtering
+![GeoJSON](visuals/geojson_filtering_trips.png)
 
 ## OSRM Map Matching
 ![OSRM](visuals/map_matching_osrm.png)
